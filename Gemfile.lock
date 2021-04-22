@@ -118,10 +118,7 @@ GEM
       warden (~> 1.2.3)
     devise_lastseenable (0.0.4)
       devise
-      devise
       rails (>= 3.0.4)
-      rails (>= 3.0.4)
-      warden
       warden
     diff-lcs (1.2.5)
     eco (1.0.0)
@@ -281,7 +278,7 @@ GEM
     net-ssh (2.9.1)
     nokogiri (1.6.1)
       mini_portile (~> 0.5.0)
-    oauth (0.4.7)
+    oauth (0.5.6)
     oauth2 (0.9.4)
       faraday (>= 0.8, < 0.10)
       jwt (~> 1.0)
