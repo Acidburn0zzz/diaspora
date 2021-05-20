@@ -118,10 +118,7 @@ GEM
       warden (~> 1.2.3)
     devise_lastseenable (0.0.4)
       devise
-      devise
       rails (>= 3.0.4)
-      rails (>= 3.0.4)
-      warden
       warden
     diff-lcs (1.2.5)
     eco (1.0.0)
@@ -265,7 +262,7 @@ GEM
     mime-types (1.25.1)
     mini_magick (3.8.1)
       subexec (~> 0.2.1)
-    mini_portile (0.5.3)
+    mini_portile2 (2.5.1)
     minitest (5.4.2)
     mobile-fu (1.3.1)
       rack-mobile-detect
@@ -279,8 +276,9 @@ GEM
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (2.9.1)
-    nokogiri (1.6.1)
-      mini_portile (~> 0.5.0)
+    nokogiri (1.11.4)
+      mini_portile2 (~> 2.5.0)
+      racc (~> 1.4)
     oauth (0.4.7)
     oauth2 (0.9.4)
       faraday (>= 0.8, < 0.10)
@@ -319,6 +317,7 @@ GEM
       slop (~> 3.4)
     pry-debundle (0.8)
       pry
+    racc (1.5.2)
     rack (1.5.2)
     rack-cors (0.2.9)
     rack-google-analytics (1.2.0)
@@ -546,7 +545,7 @@ DEPENDENCIES
   mini_magick (= 3.8.1)
   mobile-fu (= 1.3.1)
   mysql2 (= 0.3.16)
-  nokogiri (= 1.6.1)
+  nokogiri (= 1.11.4)
   omniauth (= 1.2.2)
   omniauth-facebook (= 1.6.0)
   omniauth-tumblr (= 1.1)
